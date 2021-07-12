@@ -14,21 +14,18 @@ main {
 	font-size: 1.4rem;
 }
 
-.box-search-wrapper {
+.wrapper {
 	position: relative;
 	text-align:  center;
-	top: 30%;
+	top: 4%;
 }
 
 .box-search-input {
-	width: 40rem;
+	margin: 2.5rem;
+	width: 55rem;
 	border: 1px solid gray;
-	border-radius: 2px;
-	height: 3rem;
-}
-
-.box-search-input:focus {
-	border: 2.5px solid dodgerblue;
+	border-radius: 2rem;
+	height: 4rem;
 }
 
 .box-search-button {
@@ -39,7 +36,7 @@ main {
 	margin:  1rem;
 	padding: .5em;
 	border: none;
-	background: lightgray;
+	background: whitesmoke;
 	cursor: pointer;
 }
 
