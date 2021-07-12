@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 10px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+main {
+	height: calc(90vh - 5rem);
+	font-size: 1.4rem;
+}
+
+.box-search-wrapper {
+	position: relative;
+	text-align:  center;
+	top: 30%;
+}
+
+.box-search-input {
+	width: 40rem;
+	border: 1px solid gray;
+	border-radius: 2px;
+	height: 3rem;
+}
+
+.box-search-input:focus {
+	border: 2.5px solid dodgerblue;
+}
+
+.box-search-button {
+	border: none;
+}
+
+.btn {
+	margin:  1rem;
+	padding: .5em;
+	border: none;
+	background: lightgray;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: gray;
+	color:  white;
+}
+
+.spanish-option {
+	position: relative;
+	top: 5vh;
+}
