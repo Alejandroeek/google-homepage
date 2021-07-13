@@ -23,7 +23,8 @@ main {
 .box-search-input {
 	margin: 2.5rem;
 	width: 55rem;
-	border: 1px solid gray;
+	border: none;
+	box-shadow: 0.7px 0.7px 0.7px 2px whitesmoke; 
 	border-radius: 2rem;
 	height: 4rem;
 }
