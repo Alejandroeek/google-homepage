@@ -4,33 +4,43 @@
 	box-sizing: border-box;
 }
 
+
 :root {
 	font-size: 10px;
-	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+	--smooth-gray: #F1F1F1;
+	--dark-gray: #575757;
+	--half-gray: #DDD;
+}
+
+html,body {
+	height: 100%;
 }
 
 main {
-	height: calc(90vh - 5rem);
+	height: calc(100% - 6rem - 4rem);
 	font-size: 1.4rem;
 }
 
 .wrapper {
 	position: relative;
 	text-align:  center;
-	top: 4%;
+	top: 2vh;
 }
 
 .box-search-input {
+	position: relative;
 	margin: 2.5rem;
 	width: 55rem;
 	border: none;
 	box-shadow: 0.7px 0.7px 0.7px 2px whitesmoke; 
 	border-radius: 2rem;
 	height: 4rem;
-}
-
-.box-search-button {
-	border: none;
+	padding: 1.5rem;
+	padding-left: 4rem; 
+	background-image: url(https://fonts.gstatic.com/s/i/materialiconsoutlined/search/v15/24px.svg);
+	background-repeat: no-repeat;
+	background-position: 2% center;
 }
 
 .btn {
@@ -42,8 +52,9 @@ main {
 }
 
 .btn:hover {
-	background: gray;
-	color:  white;
+	border: solid .7px var(--half-gray);
+	border-radius: 3px;
+	box-shadow: 0.7px 0.7px 0.7px 2px whitesmoke;
 }
 
 .spanish-option {

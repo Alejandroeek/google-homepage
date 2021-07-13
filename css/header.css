@@ -1,10 +1,10 @@
 header {
 	height: 6rem;
-	font-size: 1.43rem;
+	font-size: 1.38rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 1rem;
+	padding: 0 1.2rem;
 }
 
 header > section > a {
@@ -13,7 +13,22 @@ header > section > a {
 	padding:  0.8rem;
 }
 
+
 .link-parche {
 	position: relative;
-	top: -.5rem;
+	top: -.3rem;
+}
+
+.app-parche {
+	position: relative;
+	top: .5rem;
+}
+
+.btn-sign-in {
+	background: dodgerblue;
+	border: none;
+	border-radius: 2px;
+	font-weight: bold;
+	color: whitesmoke;
+	padding: .6rem .8rem;
 }
